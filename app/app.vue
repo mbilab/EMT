@@ -1,15 +1,26 @@
 <template lang="pug">
-div
-  h1 hello
+.user-template
+  v-top-panel
+  v-main
 </template>
 
 <script>
-export default {
+import Main from './main.vue'
+import TopPanel from './top-panel.vue'
+export default{
   name: 'App',
+
+  components: {
+    'v-main': Main,
+    'v-top-panel': TopPanel,
+  },
+
 }
 </script>
 
 <style lang="sass" scoped>
-h1
-  font-size: 3rem
+.user-template
+  height: 100%
+  width: 100%
+  overflow: hidden
 </style>
