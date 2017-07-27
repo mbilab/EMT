@@ -1,5 +1,7 @@
 import './index.pug'
 
+import 'semantic-ui/dist/semantic.css'
+
 import Vue from 'vue'
 import App from './app.vue'
 
