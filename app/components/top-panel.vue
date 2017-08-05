@@ -1,7 +1,7 @@
 <template lang="pug">
 .top
   .search: .ui.huge.transparent.left.icon.input
-    input(type='text', placeholder='Search...')
+    input(type='text', placeholder='Search...', maxlength='10')
     i.search.icon
   .person: i.user.icon
 </template>
