@@ -2,3 +2,4 @@ node_modules/
 option.json
 dist/
 *.log
+semantic-ui/
