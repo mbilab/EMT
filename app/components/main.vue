@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import Item from '../item.json'
+//import Item from '../item.json'
 export default {
   name: 'Main',
   data() {
     return {
-      items: Item,
+      items: [],
     }
   },
   methods: {

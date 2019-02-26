@@ -1,11 +1,7 @@
-import './index.pug'
+import 'semantic-ui-offline/semantic.min.css'
 
-import './vendor/semantic-ui/semantic.css'
-
-import Vuex from 'vuex'
 import Vue from 'vue'
 import App from './app.vue'
-
 
 new Vue({
   el: '#v-app',

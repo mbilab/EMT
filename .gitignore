@@ -1,5 +1,5 @@
-node_modules/
-option.json
+.cache/
 dist/
 *.log
-semantic-ui/
+node_modules/
+option.json
